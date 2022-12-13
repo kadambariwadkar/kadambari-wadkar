@@ -27,11 +27,7 @@ System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\chromedriver folder
 		s.selectByValue("15");
 		 List<WebElement> DayOptions = s.getOptions();
 		System.out.println(DayOptions.size());
-			s.selectByValue("15");
-			
-
-		
-		
+			s.selectByValue("15");	
 	}
 
 }
