@@ -12,7 +12,7 @@ public class Listboxstudy {
 
 	public static void main(String[] args) throws InterruptedException 
 	{
-System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\chromedriver folder\\chromedriver.exe");
+//System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\chromedriver folder\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -27,7 +27,11 @@ System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\chromedriver folder
 		s.selectByValue("15");
 		 List<WebElement> DayOptions = s.getOptions();
 		System.out.println(DayOptions.size());
-			s.selectByValue("15");	
+			s.selectByValue("15");
+			
+			
+			
+			
 	}
 
 }
