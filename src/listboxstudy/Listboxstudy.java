@@ -14,6 +14,9 @@ public class Listboxstudy {
 	{
 //System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\chromedriver folder\\chromedriver.exe");
 		
+		
+		
+		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://en-gb.facebook.com/");
